@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for recipe in recipes %}
+        {{recipe.recipe_name}}
+        {{recipe.course_name}}
+        {{recipe.cuisine_name}}
+        {{recipe.servings}}
+        {{recipe.prep_time}}
+        {{recipe.cooking_time}}
+        {{recipe.total_time}}
+        {{recipe.ingredients}}
+        {{recipe.step_1}}
+        {{recipe.step_2}}
+        {{recipe.step_3}}
+        {{recipe.step_4}}
+        {{recipe.step_5}}
+    {% endfor %}
+</body>
+</html>
