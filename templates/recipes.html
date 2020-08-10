@@ -1,27 +1,29 @@
 {% extends 'base.html' %}{% block content %}
 
-<ul class="collapsible">
-    {% for recipe in recipes %}
-    <li>
-        <div class="collapsible-header"><i class="material-icons">unfold_more</i>
-        <strong>{{recipe.recipe_name}}</strong> - {{recipe.course_name}} - {{recipe.cuisine_name}}
-        </div>
-        <div class="collapsible-body">
-            <span>
-                {{recipe.servings}}
-                {{recipe.prep_time}}
-                {{recipe.cooking_time}}
-                {{recipe.total_time}}
-                {{recipe.ingredients}}
-                {{recipe.step_1}}
-                {{recipe.step_2}}
-                {{recipe.step_3}}
-                {{recipe.step_4}}
-                {{recipe.step_5}}
-            </span>
-        </div>
-    </li>
-    {% endfor %} 
-</ul>
-  
+<div class="container">
+    <ul class="collapsible">
+        {% for recipe in recipes %}
+        <li>
+            <div class="collapsible-header recipe_header"><i class="material-icons">unfold_more</i>
+            <strong>{{recipe.recipe_name}}</strong> - {{recipe.course_name}} - {{recipe.cuisine_name}}
+            </div>
+            <div class="collapsible-body">
+                <span>
+                    {{recipe.servings}}
+                    {{recipe.prep_time}}
+                    {{recipe.cooking_time}}
+                    {{recipe.total_time}}
+                    {{recipe.ingredients}}
+                    {{recipe.step_1}}
+                    {{recipe.step_2}}
+                    {{recipe.step_3}}
+                    {{recipe.step_4}}
+                    {{recipe.step_5}}
+                </span>
+            </div>
+        </li>
+        {% endfor %} 
+    </ul>
+</div>
+
 {% endblock %}
