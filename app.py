@@ -25,6 +25,10 @@ def insert_recipe():
     recipes.insert_one(request.form.to_dict())
     return redirect(url_for('get_recipes'))
 
+@app.route('/get_cuisines')
+def get_cuisines():
+    return render_template("cuisines.html", cuisines=mongo.db.cuisines.find())
+
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
