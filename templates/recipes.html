@@ -1,6 +1,6 @@
 {% extends 'base.html' %}{% block content %}
 
-<div class="container">
+<div>
     <ul class="collapsible">
         {% for recipe in recipes %}
         <li>
@@ -9,16 +9,16 @@
             </div>
             <div class="collapsible-body">
                 <span>
-                    {{recipe.servings}}
-                    {{recipe.prep_time}}
-                    {{recipe.cooking_time}}
-                    {{recipe.total_time}}
-                    {{recipe.ingredients}}
-                    {{recipe.step_1}}
-                    {{recipe.step_2}}
-                    {{recipe.step_3}}
-                    {{recipe.step_4}}
-                    {{recipe.step_5}}
+                    <h5>Servings:</h5>{{recipe.servings}}
+                    <h5>Prep Time:</h5>{{recipe.prep_time}}
+                    <h5>Cooking Time:</h5>{{recipe.cooking_time}}
+                    <h5>Total Time:</h5>{{recipe.total_time}}
+                    <h5>Ingredients:</h5>{{recipe.ingredients}}
+                    <h5>Step 1:</h5>{{recipe.step_1}}
+                    <h5>Step 2:</h5>{{recipe.step_2}}
+                    <h5>Step 3:</h5>{{recipe.step_3}}
+                    <h5>Step 4:</h5>{{recipe.step_4}}
+                    <h5>Step 5:</h5>{{recipe.step_5}}
                 </span>
             </div>
         </li>
