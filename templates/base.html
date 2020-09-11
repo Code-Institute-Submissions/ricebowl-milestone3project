@@ -5,12 +5,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <title>Rice Bowl</title>
 </head>
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper brown lighten-1">
                 <a href="/" class="brand-logo"><i class="material-icons">rice_bowl</i>Rice Bowl</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -18,8 +19,10 @@
                     <li><a href="/">Recipes</a></li>
                     <li><a href="/">Spotlight</a></li>
                     <li><a href="/">Travel Blog</a></li>
+                    <li><a href="/"><i class="material-icons">search</i></a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
+                    <li><a href="/"><i class="material-icons">search</i>Search</a></li>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Recipes</a></li>
                     <li><a href="/">Spotlight</a></li>
@@ -29,9 +32,9 @@
         </nav>
     </header>
     
-    <div class="container">
+   
         {% block content %}{% endblock %}
-    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
