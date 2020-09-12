@@ -1,22 +1,23 @@
 {% extends 'base.html' %}{% block content %}
 
-
-<div>
-    <div class="row">
-        <h3>Cuisines</h3>
+<div class="container">
+    <div>
         <div class="row">
-            <a href="{{ url_for('add_cuisine')}}" class="waves-effect waves-light btn"><i class="material-icons right">outlined_flag</i>Add a New Cuisine</a>
-        </div>    
-        <ul class="collapsible">
-            {% for cuisine in cuisines %}
-            <li>
-                <div class="collapsible-header recipe_header">
-                <strong>{{cuisine.cuisine_name}}</strong>
-                </div>
-            </li>
-            {% endfor %} 
-        </ul>
-    </div>   
+            <h3>Cuisines</h3>
+            <div class="row">
+                <a href="{{ url_for('add_cuisine')}}" class="waves-effect waves-light btn amber accent-4"><i class="material-icons right">outlined_flag</i>Add a New Cuisine</a>
+            </div>    
+            <ul class="collapsible">
+                {% for cuisine in cuisines %}
+                <li>
+                    <div class="collapsible-header recipe_header">
+                    <strong>{{cuisine.cuisine_name}}</strong>
+                    </div>
+                </li>
+                {% endfor %} 
+            </ul>
+        </div>   
+    </div>
 </div>
 
 {% endblock %}

@@ -1,19 +1,21 @@
 {% extends 'base.html'%}
 
 {% block content %}
-<h3>Add Cuisine</h3>
-<form action="{{ url_for('insert_cuisine') }}" method="POST" class="col s12">
-    <div class="row">
-        <div class="input-field col s12">
-            <i class="material-icons prefix">outlined_flag</i>
-            <input id="cuisine_name" name="cuisine_name" type="text" class="validate">
-            <label for="cuisine_name">Cuisine Name</label>
+<div class="container">
+    <h3>Add Cuisine</h3>
+    <form action="{{ url_for('insert_cuisine') }}" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">outlined_flag</i>
+                <input id="cuisine_name" name="cuisine_name" type="text" class="validate">
+                <label for="cuisine_name">Cuisine Name</label>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <button class="btn waves-effect waves-light" type="submit" name="action">Add Cuisine
-            <i class="material-icons right">add</i>
-        </button>
-    </div>
-</form>
+        <div class="row">
+            <button class="btn waves-effect waves-light amber accent-4" type="submit" name="action">Add Cuisine
+                <i class="material-icons right">add</i>
+            </button>
+        </div>
+    </form>
+</div>
 {% endblock %}
