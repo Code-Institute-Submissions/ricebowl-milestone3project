@@ -7,6 +7,10 @@
 <div class="container">
     <h3>Recipes</h3>
     <h5>Search our database for Asian recipes. Got a new recipe or cuisine for us? You can add it to the database too.</h5>
+    <div class="row">
+        <a href="{{ url_for('add_recipe')}}" class="waves-effect waves-light btn amber accent-4"><i class="material-icons right">history_edu</i>Add a Recipe</a>
+        <a href="{{ url_for('get_cuisines')}}" class="waves-effect waves-light btn amber accent-4"><i class="material-icons right">outlined_flag</i>View/Add Cuisines</a>
+    </div> 
     <div>
         <ul class="collapsible">
             {% for recipe in recipes %}
