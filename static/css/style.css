@@ -23,8 +23,63 @@
 }
 
 h3 {
-    font-family: "Permanent Marker", sans-serif;"
+    font-family: "Permanent Marker", sans-serif;
 }
+
+.feature-one-image {
+    height: 50vh;
+    background-image: url(../images/dumplings.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-one-banner {
+    min-height: 240px;
+}
+
+.feature-one-banner h4 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 60px;
+}
+
+.feature-three-image {
+    height: 50vh;
+    background-image: url(../images/wok.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-three-banner {
+    min-height: 240px;
+}
+
+.feature-three-banner h4 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 60px;
+}
+
+.container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
 
 /*-------------------------------------------Navbar */
 
