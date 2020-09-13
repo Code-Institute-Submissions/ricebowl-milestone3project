@@ -48,3 +48,54 @@ h3 {
     justify-content: center;
     margin-bottom: 30px;
 }
+
+/*-------------------------------------------Add Recipe */
+
+.addrecipe-cover-image {
+    height: 40vh;
+    background-image: url(../images/spices.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------Cuisine */
+
+.cuisines-cover-image {
+    height: 40vh;
+    background-image: url(../images/siopao.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------Add Cuisine */
+
+.addcuisine-cover-image {
+    height: 40vh;
+    background-image: url(../images/soba-noodles.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}

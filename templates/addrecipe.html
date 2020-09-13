@@ -1,7 +1,9 @@
 {% extends 'base.html' %}{% block content %}
 
+<div class="addrecipe-cover-image"></div>
+
 <div class="container">
-    <h3>Add Recipe</h3>
+    <h3>Add a Recipe</h3>
     <div class="row">
         <form action="{{ url_for('insert_recipe') }}" method="POST" class="col s12">
             <div class="row">
