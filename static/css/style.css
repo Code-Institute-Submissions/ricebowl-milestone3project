@@ -79,7 +79,21 @@ h3 {
     margin-right: 0px;
 }
 
+.homepage-footer-banner {
+    min-height: 240px;
+}
 
+.homepage-footer-banner i {
+    font-size: 35px;
+    padding-right: 15px;
+    color: #ffffff;
+    padding-top: 35px;
+}
+
+.homepage-footer-banner h3 {
+    min-height: 240px;
+    color: #ffffff;
+}
 
 /*-------------------------------------------Navbar */
 
