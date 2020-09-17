@@ -41,16 +41,73 @@ h3 {
 }
 
 .feature-one-banner {
-    min-height: 240px;
+    min-height: 120px;
 }
 
 .feature-one-banner h4 {
     text-align: center;
     color: #ffffff;
-    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
-.feature-three-image {
+.spotlight-one-image {
+    height: 25vh;
+    background-image: url(../images/calamari.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-two-image {
+    height: 25vh;
+    background-image: url(../images/sushi.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-three-image {
+    height: 25vh;
+    background-image: url(../images/padthai.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-four-image {
+    height: 25vh;
+    background-image: url(../images/chinesedonuts.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-two-image {
     height: 50vh;
     background-image: url(../images/wok.jpg);
     -webkit-background-size: cover;
@@ -64,14 +121,15 @@ h3 {
     justify-content: center;
 }
 
-.feature-three-banner {
+.feature-two-banner {
     min-height: 240px;
 }
 
-.feature-three-banner h4 {
+.feature-two-banner h4 {
     text-align: center;
     color: #ffffff;
-    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .row {
@@ -91,7 +149,6 @@ h3 {
 }
 
 .homepage-footer-banner h3 {
-    min-height: 240px;
     color: #ffffff;
 }
 
