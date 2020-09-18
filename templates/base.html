@@ -18,16 +18,16 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="{{ url_for('homepage') }}">Home</a></li>
                     <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
-                    <li><a href="/">Spotlight</a></li>
-                    <li><a href="/">Travel Blog</a></li>
+                    <li><a href="{{ url_for('spotlight') }}">Spotlight</a></li>
+                    <li><a href="{{ url_for('travelblog') }}">Travel Blog</a></li>
                     <li><a href="/"><i class="material-icons">search</i></a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="/"><i class="material-icons">search</i>Search</a></li>
                     <li><a href="{{ url_for('homepage') }}">Home</a></li>
                     <li><a href="{{ url_for('get_recipes') }}">Recipes</a></li>
-                    <li><a href="/">Spotlight</a></li>
-                    <li><a href="/">Travel Blog</a></li>
+                    <li><a href="{{ url_for('spotlight') }}">Spotlight</a></li>
+                    <li><a href="{{ url_for('travelblog') }}">Travel Blog</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,6 +35,23 @@
     
    
         {% block content %}{% endblock %}
+
+    <footer>
+        <div class="row social-footer-banner brown darken-3">
+            <div class="container">
+                <div class="col l4 s12">
+                    <h3>Rice Bowl</h3>
+                </div>
+                <div class="col l8 m12 s12">
+                    <a target="_blank" href="https://facebook.com"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://pinterest.com"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://instagram.com"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://youtube.com"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                </div>    
+            </div>    
+        </div>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -137,19 +137,55 @@ h3 {
     margin-right: 0px;
 }
 
-.homepage-footer-banner {
+/*-------------------------------------------Social footer */
+
+.social-footer-banner {
     min-height: 240px;
 }
 
-.homepage-footer-banner i {
+.social-footer-banner i {
     font-size: 35px;
     padding-right: 15px;
     color: #ffffff;
     padding-top: 35px;
 }
 
-.homepage-footer-banner h3 {
+.social-footer-banner h3 {
     color: #ffffff;
+}
+
+/*-------------------------------------------Spotlight */
+
+.spotlight-cover-image {
+    height: 40vh;
+    background-image: url(../images/white-plate.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------Travel Blog */
+
+.travelblog-cover-image {
+    height: 40vh;
+    background-image: url(../images/sushi-mix.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------------------Navbar */

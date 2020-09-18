@@ -16,6 +16,16 @@ def homepage():
     return render_template("homepage.html")
 
 
+@app.route('/spotlight')
+def spotlight():
+    return render_template("spotlight.html")
+
+
+@app.route('/travelblog')
+def travelblog():
+    return render_template("travelblog.html")
+
+
 @app.route('/get_recipes')
 def get_recipes():
     return render_template("recipes.html", recipes=mongo.db.recipes.find())
