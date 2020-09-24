@@ -2,10 +2,15 @@
 
 {% block content %}
 
-<div class="addcuisine-cover-image"></div>
+<div class="addcuisine-cover-image title-tagline">
+    <div class="row">
+        <div class="col s12">
+            <h3>Add a Cuisine</h3>
+        </div>
+    </div>
+</div>
 
 <div class="container">
-    <h3>Add a Cuisine</h3>
     <form action="{{ url_for('insert_cuisine') }}" method="POST" class="col s12">
         <div class="row">
             <div class="input-field col s12">

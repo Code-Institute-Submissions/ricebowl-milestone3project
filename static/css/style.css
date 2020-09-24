@@ -5,6 +5,19 @@ h5 {
     line-height: 1cm;
 }
 
+h2, h3 {
+    font-family: "Permanent Marker", sans-serif;
+}
+
+.title-tagline {
+    text-align: center;
+    color: #ffab00;
+}
+
+.title-tagline h3 {
+    font-size: 72px;
+}
+
 /*-------------------------------------------Home Page */
 
 .homepage-cover-image {
@@ -25,8 +38,8 @@ h5 {
     min-height: 120px;
 }
 
-h3 {
-    font-family: "Permanent Marker", sans-serif;
+h2 {
+    font-size: 72px;
 }
 
 .feature-one-image {
