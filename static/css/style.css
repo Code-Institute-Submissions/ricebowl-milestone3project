@@ -26,13 +26,12 @@ h2, h3 {
     font-size: 72px;
 }
 
-i {
-    text-align: center;
-}
+/*-------------------------------------------Button */
 
 .btn {
     margin-bottom: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 /*-------------------------------------------Home Page */
