@@ -1,8 +1,16 @@
 /*-------------------------------------------Text */
 
+.recipe-title {
+    color: black;
+}
+
 h5 {
     text-align: justify;
     line-height: 1cm;
+}
+
+h5, h6 {
+    color: #616161;
 }
 
 h2, h3 {
@@ -16,6 +24,15 @@ h2, h3 {
 
 .title-tagline h3 {
     font-size: 72px;
+}
+
+i {
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 /*-------------------------------------------Home Page */

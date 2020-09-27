@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col s12">
             <h3>Recipes</h3>
-            <h5>Search our database for Asian recipes. Got a new recipe or cuisine for us? You can add it to the database too.</h5>
+            <h4>Search our database for Asian recipes. Got a new recipe or cuisine for us? You can add it to the database too.</h4>
         </div>
     </div>
 </div>
@@ -21,20 +21,20 @@
             {% for recipe in recipes %}
             <li>
                 <div class="collapsible-header recipe_header"><i class="material-icons">unfold_more</i>
-                <strong>{{recipe.recipe_name}}</strong> - {{recipe.course_name}} - {{recipe.cuisine_name}}
+                <h5 class="recipe-title">{{recipe.recipe_name}}</h5>  <h5>&nbsp;- {{recipe.course_name}} - {{recipe.cuisine_name}}</h5>
                 </div>
                 <div class="collapsible-body">
                     <span>
-                        <h5>Servings:</h5>{{recipe.servings}}
-                        <h5>Prep Time:</h5>{{recipe.prep_time}}
-                        <h5>Cooking Time:</h5>{{recipe.cooking_time}}
-                        <h5>Total Time:</h5>{{recipe.total_time}}
-                        <h5>Ingredients:</h5>{{recipe.ingredients}}
-                        <h5>Step 1:</h5>{{recipe.step_1}}
-                        <h5>Step 2:</h5>{{recipe.step_2}}
-                        <h5>Step 3:</h5>{{recipe.step_3}}
-                        <h5>Step 4:</h5>{{recipe.step_4}}
-                        <h5>Step 5:</h5>{{recipe.step_5}}
+                        <h5 class="recipe-title">Servings:</h5><h5>{{recipe.servings}}</h5>
+                        <h5 class="recipe-title">Prep Time:</h5><h5>{{recipe.prep_time}}</h5>
+                        <h5 class="recipe-title">Cooking Time:</h5><h5>{{recipe.cooking_time}}</h5>
+                        <h5 class="recipe-title">Total Time:</h5><h5>{{recipe.total_time}}</h5>
+                        <h5 class="recipe-title">Ingredients:</h5><h5>{{recipe.ingredients}}</h5>
+                        <h5 class="recipe-title">Step 1:</h5><h5>{{recipe.step_1}}</h5>
+                        <h5 class="recipe-title">Step 2:</h5><h5>{{recipe.step_2}}</h5>
+                        <h5 class="recipe-title">Step 3:</h5><h5>{{recipe.step_3}}</h5>
+                        <h5 class="recipe-title">Step 4:</h5><h5>{{recipe.step_4}}</h5>
+                        <h5 class="recipe-title">Step 5:</h5><h5>{{recipe.step_5}}</h5>
                     </span>
                 </div>
             </li>
