@@ -87,7 +87,7 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 
 |Focus	|Interaction Design	|Navigational Design|		|		|	|
 |:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
-|Presentation of information|[See Wireframe](/)|Home |	| | |
+|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/ricebowl-milestone3project/blob/master/wireframe/ricebowl-wireframe.pdf)|Home |	| | |
 |User Navigation|Desktop/Tablet/Mobile - social links in footer|Recipes >|Recipes collection dataset| |	|
 |	|	|	|Add Recipe Button >|Add Recipe	|	|
 |	|	|	|View/Add Cuisine Button >	|Cuisine collection dataset||
