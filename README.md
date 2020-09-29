@@ -124,6 +124,9 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 - Click open app to check the app has been deployed.
 - Project link: [Rice Bowl](/)
 
+The code for this project was also pushed to Github.
+- Github link: [Rice Bowl Github](/)
+
 ## Tests and Fixes
 
 Test and Fixes link: [Rice Bowl Testing](/)
