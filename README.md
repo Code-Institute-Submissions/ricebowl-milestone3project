@@ -125,7 +125,7 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 - Project link: [Rice Bowl](/)
 
 The code for this project was also pushed to Github.
-- Github link: [Rice Bowl Github](/)
+- Github link: [Rice Bowl Github](https://github.com/anthonybguillermo/ricebowl-milestone3project)
 
 ## Tests and Fixes
 
