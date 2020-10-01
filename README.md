@@ -69,6 +69,7 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 |	|~~Comment~~|~~Leave and reply to comments on recipes~~|
 |	|~~Message Board~~|~~Post and interact with posted topics~~|
 |	|~~Recipe Filter~~|~~Filter recipe database with criteria~~|
+|	|~~Recipe Images~~|~~Each recipe in database has an image~~|
 
 
 **Structure**
@@ -124,7 +125,7 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 - Click open app to check the app has been deployed.
 - Project link: [Rice Bowl](/)
 
-The code for this project was also pushed to Github.
+The code for this project was pushed to Github.
 - Github link: [Rice Bowl Github](https://github.com/anthonybguillermo/ricebowl-milestone3project)
 
 ## Tests and Fixes
