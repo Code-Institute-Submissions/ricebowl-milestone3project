@@ -130,7 +130,7 @@ The code for this project was pushed to Github.
 
 ## Tests and Fixes
 
-Test and Fixes link: [Rice Bowl Testing](/)
+Test and Fixes link: [Rice Bowl Testing](https://github.com/anthonybguillermo/ricebowl-milestone3project/blob/master/TESTANDFIXES.md)
 
 ## Media
 The photos used in this project were taken from:
