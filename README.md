@@ -123,7 +123,7 @@ Rice Bowl is an experienced website who have been around for 5 years. Since the 
 - Tell Heroku to run the app by typing 'heroku ps:scale web=1'
 - In Heroku go to settings tab and under config vars set the type 'IP' in key and '0.0.0.0' in value to set the IP address. Then type 'PORT' in key and '5000' in value to set the port.
 - Click open app to check the app has been deployed.
-- Project link: [Rice Bowl](/)
+- Project link: [Rice Bowl](https://abg-ricebowl.herokuapp.com/homepage)
 
 The code for this project was pushed to Github.
 - Github link: [Rice Bowl Github](https://github.com/anthonybguillermo/ricebowl-milestone3project)
